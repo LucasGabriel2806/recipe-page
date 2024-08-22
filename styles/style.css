@@ -1,0 +1,17 @@
+/* CONFIGURAÇÕES GLOBAIS */
+
+@charset "UTF-8";
+
+* {
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+}
+
+:root {
+    --background-color: hsl(30, 54%, 90%)
+}
+
+body {
+    background-color: var(--background-color);
+}
