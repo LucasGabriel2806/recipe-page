@@ -1,4 +1,18 @@
 /* MEDIA QUERIES PARA CELULAR */
-@media(max-width: 375px) {
+@media (max-width: 500px) {
+    main {
+        width: 100vw;
+        border-radius: 0;
+        margin-top: 0;
+        margin-bottom: 0;
+        padding: -80px;
+    }
 
+    img {
+        border-radius: inherit;
+        width: 115%;
+        margin: -40px -40px 0 -40px;
+    }
+
+   
 }

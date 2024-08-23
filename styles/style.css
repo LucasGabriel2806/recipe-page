@@ -32,7 +32,8 @@ body {
 
 main {
     background-color: hsl(0, 0%, 100%);
-    width: 45%;
+    min-width: 400px;
+    max-width: 750px;
     border-radius: 20px;
     margin: auto;
     padding: 40px;
@@ -48,7 +49,7 @@ img {
 }
 
 section.preparation {
-    border-radius: inherit;
+    border-radius: 20px;
     background-color: var(--rose-50);
     list-style-position: inside;
     padding: 15px;
@@ -99,15 +100,21 @@ h3, p, table, li {
     font-style: normal;
 }
 
+table {
+    width: 100%;
+}
+
+table, th, td {
+    border-collapse: collapse;
+}
+
 td {
     border-bottom: 1px solid rgba(0, 0, 0, 0.288);
-    width: 100%;
-    padding-left: 20px;
-    padding-right: 200px;
 }
 
 td.bold {
     font-weight: bold;
+    color: var(--brown-800);
 }
 
 
