@@ -1,7 +1,7 @@
 /* MEDIA QUERIES PARA CELULAR */
 @media (max-width: 500px) {
     main {
-        width: 100vw;
+        width: 96.5vw;
         border-radius: 0;
         margin-top: 0;
         margin-bottom: 0;
@@ -10,7 +10,7 @@
 
     img {
         border-radius: inherit;
-        width: 115%;
+        width: inherit; /* //114& */
         margin: -40px -40px 0 -40px;
     }
 
