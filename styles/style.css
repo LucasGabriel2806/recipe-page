@@ -55,9 +55,12 @@ section.preparation {
     padding: 15px;
 }
 
-section.preparation h3 {
+section.preparation h2.preparation {
     color: var(--rose-800);
-    padding-left: 25px;
+    padding-left: 15px;
+    font-size: 1.2em;
+    font-weight: bold;
+    margin: 10px;
 }
 
 .preparation ul li {
@@ -94,7 +97,7 @@ section {
     list-style-position: inside;
 }
 
-h3, p, table, li {
+section.preparation h2.preparation, p, table, li {
     font-family: "Outfit", sans-serif;
     font-optical-sizing: auto;
     font-style: normal;
